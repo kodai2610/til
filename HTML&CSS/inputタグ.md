@@ -1,31 +1,33 @@
 ##　検索box内虫眼鏡アイコン
+
 html 
 ~~~
-<form class="form-box">
-  <input class="form-input" type="search">
-  <button class="form-button"><img src="sicon.png" width="20px" height="20px"></button>
-</form>
+<div class="search_box">
+  <input type="serach">
+</div>
 ~~~
 
 css
 ~~~
 
-.form-box{
-	display: flex;
-	border: 2px solid lightgrey;
-	width: 400px;
+.search_box {
+  position: relative;    /* 基準値とする */
 }
 
-.form-input{
-	border: none;
-	width: 100%;
+.search_box::before {
+  content: "";           /* 疑似要素に必須 */
+  width: 10px;           /* アイコンの横幅 */
+  height: 160px;          /* アイコンの高さ */
+  background: url(./icon.png) no-repeat center center / auto 100%; /* 背景にアイコン画像を配置 */
+  display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
+  position: absolute;    /* 相対位置に指定 */
+  top: 4px;              /* アイコンの位置。微調整してね */
+  left: 5px;             /* アイコンの位置。微調整してね */
 }
 
-.form-button{
-	background-color: white;
-	border: none;
+.search_box input {
+  padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
 }
-
 ~~~
 
-> https://programingbeginer.biz/659/
+> https://qiita.com/7note/items/86253752adfb95e9bf47
