@@ -7,3 +7,9 @@ justifycontent: center と positionでright:0
 display:flexをdisplay:blockに変更。うまくいかなかったら!importantを作る
 
 >https://www.beginnerweb.net/rescssreset.html
+
+
+## float（おまけ）
+
+floatした要素は高さを失う　＝　他の要素が回り込んでくる
+
