@@ -7,6 +7,12 @@
  
 > https://willcloud.jp/knowhow/font-family/
 
+## @font-faceの使い方
+ > https://wemo.tech/1978
+ 
+
+
+
 
 
 
