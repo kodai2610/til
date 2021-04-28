@@ -70,7 +70,7 @@ $(function(){
             var target = $(this).data('target'); // modal0Xを取得
             var modal = document.getElementById(target); // modal0Xを持っているjs-modalを取得
             $(modal).fadeIn();
-            return false;
+            return false; //　aタグの遷移を止める
         }); 
     });
     $('.js-modal-close').on('click',function(){
@@ -81,3 +81,5 @@ $(function(){
 
 
 ~~~
+
+> https://webdesignday.jp/inspiration/technique/css/4680/
