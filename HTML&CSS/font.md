@@ -9,6 +9,14 @@
 
 ## @font-faceの使い方
  > https://wemo.tech/1978
+
+
+## 游ゴシック体の指定方法
+> https://qiita.com/mimoe/items/8c594dccaeb1ed84eba8
+> 
+
+ 
+ 
  
 
 
