@@ -16,3 +16,7 @@ floatした要素は高さを失う　＝　他の要素が回り込んでくる
 clear:bothの擬似ボックスを用意して直す。ストッパーの役割。
 
 > https://twitter.com/098ra0209/status/1085519869485887494
+
+## チートシート
+[flexbox-cheatsheet.pdf](https://github.com/kodai2610/til/files/6398194/flexbox-cheatsheet.pdf)
+
