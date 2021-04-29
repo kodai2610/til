@@ -7,3 +7,5 @@
 ~~~
 
 後ろから数えて何番目戦法を使う。
+
+> https://teratail.com/questions/49495
